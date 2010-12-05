@@ -16,12 +16,13 @@ With findtype, one can simply type following command in gdb to find the type
 
     (gdb) findtype size=64 member='FILE*;struct Foo'
 
+which means find a type whose size is 64 bytes and at least one data member is of type 'FILE*' and one is of type 'struct Foo'.
 
 Compile
 =======
 
 It is easy to compile it into official gdb.
-  - download .. gdb: http://www.gnu.org/software/gdb/download/
+  - download .. _gdb: http://www.gnu.org/software/gdb/download/
   - untar gdb and copy findtype.c to gdb-top-dir/gdb
   - Modify the Makefile. You can see how typeprint.c is used in
     Makefile.
