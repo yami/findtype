@@ -22,7 +22,7 @@ Compile
 =======
 
 It is easy to compile it into official gdb.
-  - download .. _gdb: http://www.gnu.org/software/gdb/download/
+  - download gdb_
   - untar gdb and copy findtype.c to gdb-top-dir/gdb
   - Modify the Makefile. You can see how typeprint.c is used in
     Makefile.
@@ -38,3 +38,5 @@ Just type
     (gdb) help findtype
 
 to show the help message.
+
+.. _gdb: http://www.gnu.org/software/gdb/download/
